@@ -207,11 +207,30 @@ img {
     background-color: lightgray;
 }
 
-#businessModel-right {
+#businessModel-left {
     width: 60%;
 }
 
+#businessModel-right {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+    width: 40%;
+    text-align:center;
+}
+
+#businessModel {
+    display: flex;
+    align-items: center;
+    max-height: fit-content;
+    background-color: lightgray;
+}
+
 #businessModel-left {
+    width: 60%;
+}
+
+#businessModel-right {
     font-size: 20px;
     padding-left: 20px;
     margin-left: 15px;
