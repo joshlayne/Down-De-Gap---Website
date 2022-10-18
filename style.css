@@ -219,18 +219,20 @@ img {
     text-align:center;
 }
 
-#businessModel {
+/**/
+
+#industryComp {
     display: flex;
     align-items: center;
     max-height: fit-content;
     background-color: lightgray;
 }
 
-#businessModel-left {
+#industryComp-right {
     width: 60%;
 }
 
-#businessModel-right {
+#industryComp-left {
     font-size: 20px;
     padding-left: 20px;
     margin-left: 15px;
