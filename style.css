@@ -263,4 +263,37 @@ tr:hover {
     background-color: white;
 }
 
+#main-container {
+                display: flex;
+                align-items: stretch;
+            }
+            #navbar {
+                max-width: 40%;
+                border: 1px solid black;
+            }
+            #search-box {
+                display: flex;
+            }
+            #search-box input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+            }
+            #search-box button {
+            float: right;
+            width: 20%;
+            /*padding: 6px;*/
+            background: lightgrey;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            cursor: pointer;
+            }
+
+            #search-box button:hover {
+            background: grey;
+            }
 
