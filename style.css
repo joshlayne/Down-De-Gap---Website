@@ -218,3 +218,15 @@ img {
             background: grey;
             }
 
+#navbar td {
+                padding: 10px;
+                border-bottom: 1px solid grey;
+            }
+
+            #navbar th {
+                padding: 10px;
+            }
+
+            #map {
+                max-width: 60%;
+            }
