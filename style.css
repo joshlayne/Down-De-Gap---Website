@@ -181,8 +181,45 @@ img {
     text-align:center;
 }
 
+#mission {
+    display:flex;
+    text-align:center;
+}
 
+#mission-left {
+    max-width: 40%;
+    margin: 15px;
+    padding: 30px;
+}
 
+#mission-left button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    align-self: center;
+    border-radius: 1px;
+}
+
+#mission-left button:hover {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+#mission-left button:active {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+#mission-image {
+    justify-content:center;
+}
+
+#mission-image img {
+    width: 200px;
+    height:fit-content;
+    float:right;
+    justify-content:center;
+}
 
 #main-container {
                 display: flex;
@@ -230,3 +267,33 @@ img {
             #map {
                 max-width: 60%;
             }
+
+/*Restaurant Page*/
+
+
+
+#restaurant-list td.description {
+    width: 100%;
+}
+
+#restaurant-list tr {
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#restaurant-list td {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+td.logo {
+    width: 10%;
+}
+
+td.description {
+    padding-left: 20px;
+}
