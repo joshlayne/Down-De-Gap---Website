@@ -197,7 +197,7 @@ img {
     color: white;
     padding: 10px;
     align-self: center;
-    border-radius: 1px;
+    border-radius: 10px;
 }
 
 #mission-left button:hover {
@@ -296,4 +296,32 @@ td.logo {
 
 td.description {
     padding-left: 20px;
+}
+
+#see-more {
+    text-align: center;
+}
+
+#see-more button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#see-more button:hover {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+#see-more button:active {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.order button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
